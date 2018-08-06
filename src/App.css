@@ -8,7 +8,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #48342E;
+	background: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
@@ -675,10 +675,10 @@ ul.contact li a.icon-rss:before
 
 	#header-featured
 	{
-		height: 30em;
+		height: 15em;
 		background-image: url(images/skyline.jpg);
 		background-position: center;
-		background-size: cover;
+    background-size: cover;
 	}
 
 
