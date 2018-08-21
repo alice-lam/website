@@ -36,7 +36,7 @@ const Resume = () => (
                 Intern
                 <p>Summer 2013</p>
 
-                <p>For a full resume, please click < a href = "public/Resume2017.pdf"> here</a> . </p>
+                <p>For a full resume, please click < a href = "__files/Resume2017.pdf"> here</a>.</p>
             </div>
         </div>                               
     </App>
