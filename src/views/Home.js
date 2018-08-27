@@ -54,7 +54,7 @@ TxtType.prototype.tick = function() {
     if (this.isDeleting) { delta /= 2; }
 
     if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
+    delta = this.period*2;
     this.isDeleting = true;
     } else if (this.isDeleting && this.txt === '') {
     this.isDeleting = false;
