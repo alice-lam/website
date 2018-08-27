@@ -7,18 +7,17 @@ const Contact = () => (
        <div id="page" class="container">
 		  <div id="content">
 			<div class="title">
-				<h2>Contact Page</h2>
-				<h3>You can reach me through the following:</h3>
+				<center><h2>Contact Page</h2></center>
+				<center><h3>You can reach me through the following:</h3></center>
             </div>
-			    <h4>E-mail</h4>
-                <p>alice94@sbcglobal.net</p>
+                <center><h4>E-mail</h4></center>
+                <center><p>alice94@sbcglobal.net</p></center>
 
-                <h4>LinkedIn</h4>
-                <p>www.linkedin.com/in/ccalicelam</p>
+                <center><h4>LinkedIn</h4></center>
+                <center><p>www.linkedin.com/in/ccalicelam</p></center>
 
-                <h4>Github</h4>
-                <p>www.github.com/alice-lam</p>
-
+                <center><h4>Github</h4></center>
+                <center><p>www.github.com/alice-lam</p></center>
             </div>
         </div>                               
     </App>
