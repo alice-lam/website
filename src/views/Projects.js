@@ -9,7 +9,7 @@ const Projects = () => (
 			  <div class="title">
 				  <h2>My Projects</h2>
 				  <span class="byline">Mauris vulputate dolor sit amet nibh</span> </div>
-			    <p>To be added in later.</p>
+			    <p>Projects will be updated later.</p>
             </div>
         </div>                               
     </App>
