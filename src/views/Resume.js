@@ -9,8 +9,8 @@ const Resume = () => (
             <div class="title">
 				<center><h2>Resume</h2></center>
             </div>
-            <center><embed src="__files/Resume2017.pdf" width="900px" height="1150px" /></center>
-            <center><p>To download this file, please click < a href = "__files/Resume2017.pdf"> here</a>.</p></center>
+            <center><embed src="__files/Resume2018.pdf" width="900px" height="1150px" /></center>
+            <center><p>To download this file, please click < a href = "__files/Resume2018.pdf"> here</a>.</p></center>
             </div>
             
         </div>                               
