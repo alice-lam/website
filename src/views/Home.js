@@ -5,82 +5,18 @@ import Header from '../components/header.js';
 const Home = () => (
     <App>
     <Header/>
-      <div id="wrapper">
-        <div id="page" className="container">
-            <div id="content">
-                <div className="title">
-                    <h2>Welcome to my website.</h2>
-                    <h4 className="typewrite" data-period="1000" data-type='[ " Hello, my name is Alice.", "I am a full-stack developer located in Austin, TX.", "I enjoy building everything from small web applications to large scale business APIs." ]'>
-                        <span className="wrap"></span>
-                    </h4>
-                </div>
-                    <p>I am currently a Software Engineer at Dell Technologies. I graduated from the University of Texas at Austin with a BS in Electrical and Computer Engineering, with a technical focus on software development. I have experience in object oriented programming such as C/C++ and Java, and also have experience in React front-end development. I am always looking for opportunities where I can apply my skills as well as expand my knowledge.</p>
-                    <p>Outside of work, I am a pretty big foodie. I am an active member Austin's Yelp Elite Community. I also enjoy experimenting with photography of both food and people.</p>
-                </div>
-                <div>
-                    <a href="/projects" className="button">Explore Work.</a> 
-                </div>
+      <section id="home">
+        <div id="content">
+            <div className="title">
+                <h2>Welcome to my website.</h2>
+                <h4>Hello, my name is Alice. I am a full-stack developer located in Austin, TX. I enjoy building everything from small web applications to large scale business APIs.</h4>
             </div>
-        </div>                          
+                <p>I am currently a Software Engineer at Dell Technologies. I graduated from the University of Texas at Austin with a BS in Electrical and Computer Engineering, with a technical focus on software development. I have experience in object oriented programming such as C/C++ and Java, and also have experience in React front-end development. I am always looking for opportunities where I can apply my skills as well as expand my knowledge.</p>
+                <p>Outside of work, I am a pretty big foodie. I am an active member Austin's Yelp Elite Community. I also enjoy experimenting with photography of both food and people.</p>
+            </div>
+        </section>                          
     </App>
 
 );
-
-var TxtType = function(el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
-    this.txt = '';
-    this.tick();
-    this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function() {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
-
-    if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
-
-    this.el.innerHTML = '<span className="wrap">'+this.txt+'</span>';
-
-    var that = this;
-    var delta = 50;
-
-    if (this.isDeleting) { delta /= 2; }
-
-    if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period*2;
-    this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-    }
-
-    setTimeout(function() {
-    that.tick();
-    }, delta);
-};
-
-window.onload = function() {
-    var elements = document.getElementsByClassName('typewrite');
-    for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
-    }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-    document.body.appendChild(css);
-};
 
 export default Home;
