@@ -14,7 +14,6 @@ const Home = () => (
                 </div>
                     <p>I am currently a Software Engineer at Dell Technologies. I graduated from the University of Texas at Austin with a BS in Electrical and Computer Engineering, with a technical focus on software development. I have experience in object oriented programming such as C/C++ and Java, and also have experience in React front-end development. I am always looking for opportunities where I can apply my skills as well as expand my knowledge.</p>
                     <p>Outside of work, I am a pretty big foodie. I am an active member Austin's Yelp Elite Community. I also enjoy experimenting with photography of both food and people.</p>
-                    <p>This portfolio is based off of <strong>Clear-Cut</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. All photographs on this site are my own. Source code for this project can be found  <a href="https://github.com/alice-lam/website" rel="nofollow">here</a>.</p>
                 </div>
                 <div>
                     <a href="/projects" className="button">Explore Work.</a> 

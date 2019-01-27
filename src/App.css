@@ -373,7 +373,7 @@ ul.contact li a.icon-rss:before
 /* Header                                                                        */
 /*********************************************************************************/
 	
-#header-wrapper
+/* #header-wrapper
 {
 	background: #FFF;
 }
@@ -382,13 +382,13 @@ ul.contact li a.icon-rss:before
 {
 	position: relative;
 	height: 100px;
-}
+} */
 
 /*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
 
-	#logo
+/* #logo
 {
 	position: absolute;
 	top: 2em;
@@ -403,19 +403,14 @@ ul.contact li a.icon-rss:before
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #404040;
-}
-
-#logo a
-{
 	text-decoration: none;
-	color: #404040;
-}
+} */
 
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
 
-#menu
+/* #menu
 {
 	position: absolute;
 	right: 0;
@@ -448,23 +443,12 @@ ul.contact li a.icon-rss:before
 	color: #2D2D2D;
 }
 
-#menu li:hover a, #menu li.active a, #menu li.active span,
-{
-}
-
-#menu page a
-{
-}
-
 #menu .page_current a
 {
 	background: #DB3256;
 	color: #FFF;
-}
+} */
 
-#menu .icon
-{
-}
 
 /*********************************************************************************/
 /* Banner                                                                        */
