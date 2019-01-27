@@ -1,8 +1,10 @@
 import React from 'react';
 import App from '../App';
+import Header from '../components/header.js';
 
 const Home = () => (
     <App>
+    <Header/>
       <div id="wrapper">
         <div id="page" className="container">
             <div id="content">
