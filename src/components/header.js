@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
 import "./styles/_header.scss";
+import Image from "./images/navbar-logo.png";
 
 class header extends Component {
   render() {
     return(
         <div className="navbar-container">
-            <a className="navbar-logo">Alice Lam</a>
+            <img src={Image} alt="logo" className="navbar-logo"/>
+            <div className="navbar-menu">
+              <li className="navbar-menu-link">
+                <a href="">About</a>
+              </li>
+              <li className="navbar-menu-link">
+                <a href="">Resume</a>
+              </li>
+              <li className="navbar-menu-link">
+                <a href="">Projects</a>
+              </li>
+            </div>
         </div>
     );
 

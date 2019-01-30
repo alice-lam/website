@@ -1,6 +1,8 @@
+//clears browser css
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+//Google font import
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .App{
-    padding: 0em 5em 0em;
     font-family: 'Open Sans', sans-serif;
 }
