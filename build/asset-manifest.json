@@ -1,14 +1,8 @@
 {
-<<<<<<< Updated upstream
-  "main.js": "static/js/main.2c2f5413.js",
-  "main.js.map": "static/js/main.2c2f5413.js.map",
-  "static\\media\\App.scss": "static/media/App.05164872.scss",
-  "static\\media\\_header.scss": "static/media/_header.94e13960.scss",
-=======
-  "main.js": "static/js/main.718fb83f.js",
-  "main.js.map": "static/js/main.718fb83f.js.map",
-  "static\\media\\App.scss": "static/media/App.41731d92.scss",
-  "static\\media\\_header.scss": "static/media/_header.be983151.scss",
->>>>>>> Stashed changes
-  "static\\media\\navbar-logo.png": "static/media/navbar-logo.2fff9fbf.png"
+  "main.js": "static/js/main.d4a6573e.js",
+  "main.js.map": "static/js/main.d4a6573e.js.map",
+  "static\\media\\App.scss": "static/media/App.b68be175.scss",
+  "static\\media\\_header.scss": "static/media/_header.3dff3d6c.scss",
+  "static\\media\\_subheader.scss": "static/media/_subheader.6cf6e674.scss",
+  "static\\media\\logo.png": "static/media/logo.f91fc93e.png"
 }

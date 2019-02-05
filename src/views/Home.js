@@ -1,10 +1,13 @@
 import React from 'react';
 import App from '../App';
+import './../App.scss';
 import Header from '../components/header.js';
+import Subheader from '../components/subheader.js';
 
 const Home = () => (
     <App>
         <Header />
+        <Subheader />
         <section id="home">
             <div id="content">
                 <p>Lorem ipsum dolor amet distillery gluten-free raclette, mixtape venmo shoreditch freegan chia vice poutine twee shabby chic migas. Food truck literally taiyaki craft beer small batch XOXO vice 3 wolf moon gastropub. Keytar fingerstache 3 wolf moon cronut microdosing tattooed, normcore jianbing biodiesel venmo. Hoodie kitsch venmo cred normcore tumeric. Etsy shaman woke, health goth letterpress XOXO enamel pin squid dreamcatcher yr kogi hell of. Mlkshk 90's you probably haven't heard of them green juice try-hard af bitters lo-fi locavore knausgaard intelligentsia brunch adaptogen squid viral. Hexagon tumblr farm-to-table, hoodie craft beer trust fund wolf put a bird on it normcore sriracha actually paleo banh mi.</p>

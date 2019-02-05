@@ -9,13 +9,10 @@ class header extends Component {
         <img src={Image} alt="logo" className="navbar-logo" />
         <div className="navbar-menu">
           <li className="navbar-menu-link">
-            <a href="">About</a>
+            <a href="">Programming</a>
           </li>
           <li className="navbar-menu-link">
-            <a href="">Resume</a>
-          </li>
-          <li className="navbar-menu-link">
-            <a href="">Projects</a>
+            <a href="">TreatsByAlice</a>
           </li>
         </div>
         <a href="" className="icon" onClick="">
