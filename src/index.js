@@ -8,7 +8,7 @@ import Resume from './views/Resume';
 ReactDOM.render(
     <Router>
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="" exact component={Home} />
         <Route path="/resume" component={Resume} />
       </Switch>
     </Router>, 
