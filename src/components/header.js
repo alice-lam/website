@@ -1,23 +1,16 @@
 import React, { Component } from "react";
 import "./styles/_header.scss";
-import Image from "./images/logo.png";
+import Image from "./images/oldlogo.png";
 
 class header extends Component {
   render() {
     return (
       <div className="navbar-container">
-        <img src={Image} alt="logo" className="navbar-logo" />
-        <div className="navbar-menu">
-          <li className="navbar-menu-link">
-            <a href="">Programming</a>
-          </li>
-          <li className="navbar-menu-link">
-            <a href="">TreatsByAlice</a>
-          </li>
-        </div>
-        <a href="" className="icon" onClick="">
+          <img src={Image} alt="logo" className="navbar-logo" />
+          <h1 className="navbar-title"> A L I C E L A M . C O </h1>
+        <button href="" className="menu-icon" onClick="">
           <i className="fas fa-bars"></i>
-        </a>
+        </button>
       </div>
     );
   }

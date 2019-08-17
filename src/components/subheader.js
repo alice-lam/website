@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from 'react-router-dom';
 import "./styles/_subheader.scss";
 
 class subheader extends Component {
@@ -7,13 +8,16 @@ class subheader extends Component {
       <div className="subheader-container">
         <div className="subheader-menu">
           <li className="subheader-menu-link">
-            <a href="">About</a>
+            <NavLink exact activeClassName="active" to="/">Home</NavLink>
           </li>
           <li className="subheader-menu-link">
-            <a href="">Resume</a>
+            <NavLink exact activeClassName="active" to="/about">About</NavLink>
           </li>
           <li className="subheader-menu-link">
-            <a href="">Projects</a>
+            <NavLink exact activeClassName="active" to="/developer">Developer Work</NavLink>
+          </li>
+          <li className="subheader-menu-link">
+            <NavLink exact activeClassName="active" to="/treatsbyalice">TreatsByAlice</NavLink>
           </li>
         </div>
       </div>

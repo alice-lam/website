@@ -9,4 +9,30 @@
 
 #home{
     padding: .625em 2.5em;
+
+    .title{
+        font-weight: 400;
+        font-size: 2em;
+        color: #ff9999;
+        margin: .5em 0;
+    }
+    
+    p{
+        font-size: .85em;
+        line-height: 1.5em;
+        color: #666666;
+        margin-bottom: .5em;
+    }
+
+    .home-banner{
+        display: flex;
+        justify-content: center;
+        background-color: #ffe8e8;
+        padding: .25em;
+        img{
+            width: 50%;
+            height: 50%;
+            opacity: .85;
+        }
+    }
 }
