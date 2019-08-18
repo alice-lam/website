@@ -55,6 +55,36 @@
     }
 }
 
+#developer{
+    #content{
+        text-align: center;
+        
+        h1{
+            color: #007db8;
+            font-weight: bold;
+            margin-bottom: .5em;
+        }
+        a{
+            // &:hover{
+            //     cursor: pointer;
+            // }
+            img{
+                padding: .5em;
+                border: .02em solid #666666;
+                width:50%;
+                height: 50%;
+                opacity: .8;
+
+                &:hover{
+                    cursor: pointer;
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
+
+
 @media (min-width: 1000px) {
     #about{
         #content{

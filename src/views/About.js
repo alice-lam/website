@@ -56,13 +56,12 @@ const About = () => (
                         </ul>
                         <br/>
                         <h2>Contact Info</h2>
-                        <p>
-                            <ul>
-                                <li>LinkedIn: www.linkedin.com/in/ccalicelam</li>
-                                <li>Email: alice94@sbcglobal.net</li>
-                                <li>Phone: (512)207-0364</li>
-                            </ul>
-                        </p>
+                        <br/>
+                        <ul>
+                            <li><p>LinkedIn: www.linkedin.com/in/ccalicelam</p></li>
+                            <li><p>Email: alice94@sbcglobal.net</p></li>
+                            <li><p>Phone: (512) 207-0364</p></li>
+                        </ul>
                 </div>
             </div>
 
