@@ -8,9 +8,9 @@ const Treatsbyalice = () => (
     <App>
         <Header />
         <Subheader />
-        <section id="home">
+        <section id="treatsbyalice">
             <div id="content">
-                <p>Treats by Alice Work In Progress.</p>
+                <p>Treats by Alice Page is still WIP.</p>
             </div>
         </section>
     </App>
