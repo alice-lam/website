@@ -8,16 +8,16 @@ class subheader extends Component {
       <div className="subheader-container">
         <div className="subheader-menu">
           <li className="subheader-menu-link">
-            <NavLink exact activeClassName="active" to="/">Home</NavLink>
+            <NavLink exact activeClassName="active" to="/" href="/">Home</NavLink>
           </li>
           <li className="subheader-menu-link">
-            <NavLink exact activeClassName="active" to="/about">About</NavLink>
+            <NavLink exact activeClassName="active" to="/about" href="/about">About</NavLink>
           </li>
           <li className="subheader-menu-link">
-            <NavLink exact activeClassName="active" to="/developer">Developer Work</NavLink>
+            <NavLink exact activeClassName="active" to="/developer" href="/developer">Developer Portfolio</NavLink>
           </li>
           <li className="subheader-menu-link">
-            <NavLink exact activeClassName="active" to="/treatsbyalice">TreatsByAlice</NavLink>
+            <NavLink exact activeClassName="active" to="/treatsbyalice" href="/treatsbyalice">TreatsByAlice</NavLink>
           </li>
         </div>
       </div>

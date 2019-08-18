@@ -2,16 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
+
 import Home from './views/Home';
-import Resume from './views/Resume';
+import About from './views/About';
+import Developer from './views/Developer';
+import Treatsbyalice from './views/TreatsByAlice';
 
 ReactDOM.render(
     <Router>
       <Switch>
-        <Route path="" exact component={Home} />
-        <Route path="/resume" component={Resume} />
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/developer" component={Developer} />
+        <Route path="/treatsbyalice" component={Treatsbyalice} />
       </Switch>
     </Router>, 
     document.getElementById('root')
 );
+
 registerServiceWorker();
