@@ -2,6 +2,9 @@
 @import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
 //Google font import
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import "./components/styles/_header.scss";
+@import "./components/styles/_subheader.scss";
+
 
 .App{
     font-family: 'Open Sans', sans-serif;

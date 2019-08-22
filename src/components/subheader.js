@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from 'react-router-dom';
-import "./styles/_subheader.scss";
+// import "./styles/_subheader.scss";
 
 class subheader extends Component {
   render() {
