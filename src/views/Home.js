@@ -4,7 +4,7 @@ import './../App.scss';
 import Header from '../components/header.js';
 import Subheader from '../components/subheader.js';
 import Footer from '../components/footer.js';
-import Image from '../components/images/home.png';
+import Profile from '../components/images/home.png';
 import Signature from '../components/images/signature.png';
 
 const Home = () => (
@@ -14,7 +14,7 @@ const Home = () => (
         <section id="home">
             <div id="content">
                 <div className="home-banner">
-                    <img src={Image} className="banner-img" alt="profile"/>
+                    <img src={Profile} className="banner-img" alt="profile"/>
                     <div className="intro-container">
                         <h1 className="title">Welcome to my site!</h1>
                         <p>Hello, my name is Alice, nice to meet you! </p>

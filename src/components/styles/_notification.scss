@@ -1,0 +1,21 @@
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .75em;
+    margin-bottom: 1em;
+    max-width: 100%;
+    background-color: #a5b1c4;
+    color: white;
+    i {
+        padding: 0 .5em;
+        font-size: 16px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

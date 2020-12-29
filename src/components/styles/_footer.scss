@@ -1,7 +1,3 @@
-//clears browser css
-@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
-@import url(https://use.fontawesome.com/releases/v5.7.0/css/all.css);
-
 .footer-container{
     display: flex;
     background-color: #2b3033;
@@ -14,6 +10,7 @@
 }
 .footer-menu{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     .footer-menu-link{
         justify-content: center;
@@ -33,7 +30,7 @@
             display: none;
         }
         &:hover{
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(165, 177, 196, 0.2);
         }
     }
 }
