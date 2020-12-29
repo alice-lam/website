@@ -3,6 +3,7 @@ import App from '../App';
 import './../App.scss';
 import Header from '../components/header.js';
 import Subheader from '../components/subheader.js';
+import Footer from '../components/footer.js';
 import Image from "../components/images/delldesign.png";
 
 const Developer = () => (
@@ -21,6 +22,7 @@ const Developer = () => (
                 <a href="https://www.delldesignsystem.com"><img src={Image} alt="Dell Design System"></img></a>
             </div>
         </section>
+        <Footer />
     </App>
 
 );

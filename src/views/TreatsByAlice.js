@@ -3,6 +3,7 @@ import App from '../App';
 import './../App.scss';
 import Header from '../components/header.js';
 import Subheader from '../components/subheader.js';
+import Footer from '../components/footer.js';
 
 const Treatsbyalice = () => (
     <App>
@@ -13,6 +14,7 @@ const Treatsbyalice = () => (
                 <p>Treats by Alice Page is still WIP.</p>
             </div>
         </section>
+        <Footer />
     </App>
 
 );

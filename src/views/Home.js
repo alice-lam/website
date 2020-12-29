@@ -3,6 +3,7 @@ import App from '../App';
 import './../App.scss';
 import Header from '../components/header.js';
 import Subheader from '../components/subheader.js';
+import Footer from '../components/footer.js';
 import Image from '../components/images/home.png';
 import Signature from '../components/images/signature.png';
 
@@ -25,9 +26,9 @@ const Home = () => (
                         <img src={Signature} id="signature" alt="signature"/>
                     </div>
                 </div>
-    
             </div>
         </section>
+        <Footer />
     </App>
 
 );
