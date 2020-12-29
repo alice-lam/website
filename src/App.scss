@@ -12,7 +12,6 @@
     .title{
         font-weight: 400;
         font-size: 2em;
-        color: #ff9999;
         margin: 0 0 .5em;
     }
 
@@ -23,7 +22,6 @@
     p{
         font-size: .85em;
         line-height: 1.5em;
-        color: #666666;
         margin-bottom: .5em;
     }
 }
@@ -31,14 +29,27 @@
 #home{
     .home-banner{
         display: flex;
-        justify-content: center;
-        background-color: #ffe8e8;
-        padding: .25em;
-        margin-bottom: 1em;
-        img{
-            width: 50%;
-            height: 50%;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #a5b1c4;
+        color: #ffffff;
+        font-size: 18px;
+
+        .banner-img{
+            width: 100%;
             opacity: .85;
+            margin-right: .25em;
+            object-fit: cover;
+        }
+
+        .intro-container{
+            padding: 2em 1.5em;
+        }
+
+        #signature {
+            padding: 1em .5em;
+            height: 50px;
+            width: 200px;
         }
     }
 }
@@ -95,7 +106,20 @@
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width: 996px) {
+    #home{
+        .home-banner{
+            flex-direction: row;
+            .banner-img{
+                width: 50%;
+            }
+            #signature {
+                padding: 2em .5em 1em;
+                height: 65px;
+                width: 300px;
+            }
+        }
+    }
     #about{
         #content{
             display: flex;
