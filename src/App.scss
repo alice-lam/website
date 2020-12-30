@@ -122,8 +122,56 @@
 }
 
 #treatsbyalice{
-    #content{
+    #discover {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        img {
+            object-fit: cover;
+            max-height: 400px;
+            width: 100%;
+            opacity: .8;
+            &:hover{
+                opacity: 1;
+            }
+        }
+
+    }
+    #ad{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
+        color:#506991;
+        width: 100%;
+        letter-spacing: .125em;
+        margin: 1em 0;
+        i {
+            font-size: 20px;
+            padding: .5em;
+        }
+        h2 {
+            margin-bottom: .5em;
+        }
+        > a {
+            text-decoration: none;
+            color: #506991;
+            margin-bottom: 1em;
+        }
+        div.gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 100%;
+            img {
+                max-width: 160px;
+                padding: .25em .25em 0 .25em;
+                opacity: .75;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+        }
     }
 }
 
@@ -157,6 +205,22 @@
                 padding: 2em .5em;
                 &:not(:first-of-type) {
                     border-left: 1px solid #E6ECF8;
+                }
+            }
+        }
+    }
+    #treatsbyalice {
+        #ad {
+            i {
+                font-size: 24px;
+            }
+            div.gallery-container { 
+                margin: 1em;
+                img {
+                    max-width: 262px;
+                }
+                &.gallery-img{
+                    padding-left: .5em;
                 }
             }
         }
