@@ -23,13 +23,13 @@
             padding: 1.25em;
         }
         button {
-            background-color: #2b3033;
+            background-color: transparent;
             color: white;
             border: none;
             font-size: 14px;
             letter-spacing: 0.125em;
             line-height: 14px;
-            padding: 1.25em;
+            padding: 1em;
             &:hover {
                 background-color: rgba(165, 177, 196, 0.2);
                 cursor: pointer;
