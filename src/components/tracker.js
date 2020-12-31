@@ -26,10 +26,10 @@ class tracker extends Component {
   updateCount(){
     this.getJSON("https://www.instagram.com/treatsbyalice/?__a=1", 
     function(err,data) {
-        var counter = document.getElementById("follower-count");
-        if(err !== null){
-            counter.innerHTML= "-- followers";
+        if(err !== null || data==null){
+            console.log("error");
         } else {
+            var counter = document.getElementById("follower-count");
             var userData = data.graphql.user.edge_followed_by.count;
             counter.innerHTML= userData + " followers";
         }
@@ -41,7 +41,7 @@ class tracker extends Component {
       <div className="tracker-container">
         <div className="tracker">
             <i className="fas fa-users"></i>
-            <span id="follower-count"></span>
+            <span id="follower-count">fetching data...</span>
         </div>
       </div>
     );
