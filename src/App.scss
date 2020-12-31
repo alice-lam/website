@@ -126,6 +126,9 @@
         display: flex;
         justify-content: center;
         width: 100%;
+        >a {
+            width: 1080px;
+        }
         img {
             object-fit: cover;
             max-height: 400px;
@@ -146,7 +149,7 @@
         width: 100%;
         letter-spacing: .125em;
         margin: 1em 0;
-        i {
+        i.fab {
             font-size: 20px;
             padding: .5em;
         }
@@ -158,11 +161,15 @@
             color: #506991;
             margin-bottom: 1em;
         }
+        b {
+            font-weight: 600;
+        }
         div.gallery-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             max-width: 100%;
+            margin: 1em 0;
             img {
                 max-width: 160px;
                 padding: .25em .25em 0 .25em;
@@ -211,7 +218,7 @@
     }
     #treatsbyalice {
         #ad {
-            i {
+            i.fab {
                 font-size: 24px;
             }
             div.gallery-container { 

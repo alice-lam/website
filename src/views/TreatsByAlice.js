@@ -3,6 +3,7 @@ import App from '../App';
 import './../App.scss';
 import Header from '../components/header.js';
 import Subheader from '../components/subheader.js';
+import Tracker from '../components/tracker.js';
 import Footer from '../components/footer.js';
 import foodcover from '../components/images/instagram.png';
 import insta1 from '../components/images/insta1.png';
@@ -21,8 +22,9 @@ const Treatsbyalice = () => (
             <div id="ad">
                 <i className="fab fa-instagram"></i>
                 <a href="https://instagram.com/treatsbyalice">
-                    <h2>FOLLOW ME ON INSTAGRAM</h2> @treatsbyalice
+                    <h2>FOLLOW ME ON INSTAGRAM</h2><b>@treatsbyalice</b>
                 </a>
+                <Tracker />
                 <div className="gallery-container">
                     <a href="https://www.instagram.com/p/B2Md48MlvOv/"><img src={insta1} alt="treatsbyalice"/></a>
                     <a href="https://www.instagram.com/p/By0LUyyFTLi/"><img className="gallery-img" src={insta2} alt="treatsbyalice"/></a>
