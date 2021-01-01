@@ -31,7 +31,7 @@ const Developer = () => (
                     <ul>
                         <li>HTML</li>
                         <li>Javascript</li>
-                        <li>HTML</li>
+                        <li>CSS</li>
                         <li>SASS / SCSS</li>
                         <li>Bootstrap</li>
                         <li>React</li>
