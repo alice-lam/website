@@ -39,10 +39,10 @@ class tracker extends Component {
   render() {
     return (
       <div className="tracker-container">
-        <div className="tracker">
+        <a href="https://instagram.com/treatsbyalice" className="tracker">
             <i className="fas fa-users"></i>
             <span id="follower-count">fetching data...</span>
-        </div>
+        </a>
       </div>
     );
   }

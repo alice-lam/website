@@ -21,9 +21,9 @@ const Treatsbyalice = () => (
             </div>
             <div id="ad">
                 <i className="fab fa-instagram"></i>
-                <a href="https://instagram.com/treatsbyalice">
+                <div>
                     <h2>FOLLOW ME ON INSTAGRAM</h2><b>@treatsbyalice</b>
-                </a>
+                </div>
                 <Tracker />
                 <div className="gallery-container">
                     <a href="https://www.instagram.com/p/B2Md48MlvOv/"><img src={insta1} alt="treatsbyalice"/></a>
